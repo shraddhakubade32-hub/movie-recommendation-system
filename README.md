@@ -1,0 +1,46 @@
+# Movie Recommendation System
+
+## About the Project
+This is a beginner-level Machine Learning project that recommends movies based on the genre and description of a movie selected by the user.
+
+## How It Works
+1. The program reads movie information from `movies.csv`.
+2. TF-IDF converts movie text into numerical features.
+3. Cosine similarity compares the movies.
+4. The program displays five similar movie recommendations.
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
+
+## Project Files
+- `app.py` - main Python program
+- `movies.csv` - movie dataset
+- `requirements.txt` - required Python libraries
+
+## Installation and Running
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the program:
+
+   ```bash
+   python app.py
+   ```
+
+5. Enter a movie title from the displayed list.
+
+## Note
+This project uses content-based filtering. Recommendations are based on movie genres and descriptions, not on user ratings or viewing history.
+
+## Learning Outcome
+This project demonstrates text feature extraction, similarity measurement, dataset handling, and a basic recommendation workflow.
